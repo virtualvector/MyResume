@@ -1,0 +1,279 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{}{Rohith Raj R}
+      {\qquad\qquad Ardent data scientist | Machine Learning aficionado }
+      
+%| Seeker of truth with data
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+\section{}
+    \includegraphics[scale=0.5]{img/qrcode.png}
+    
+  \section{Address \includegraphics[scale=0.06]{img/address.png}}
+    Room 813, PESIT 
+     Bangalore-560100
+    
+  \section{Tel \& Skype \includegraphics[scale=0.1]{img/skype.png}}
+    +91 9611459441
+    neoben86
+    
+  \section{Mail \includegraphics[scale=0.05]{img/gmail.png}}
+    \href{mailto:rohithraj.reganti@gmail.com}{\textbf{rohithraj.reganti@}\\gmail.com}
+
+    \section{ Github \includegraphics[scale=0.03]{img/githubicon.png}}
+    \href{https://github.com/neoben}{github.com/neoben}
+
+  \section{ResearchGate} %\includegraphics[scale=0.07]{img/rg.png}}
+   
+    \href{https://github.com/neoben}{github.com/neoben}
+    
+  \section{Programming}
+    \includegraphics[scale=0.2]{img/piejava.png}
+    ~
+
+    
+    \section{Data Science}
+    \textbf{SciPy}\includegraphics[scale=0.40]{img/1stars.png} 
+    \textbf{Sk-learn}\includegraphics[scale=0.40]{img/1stars.png}
+    \textbf{Spark}\includegraphics[scale=0.40]{img/1stars.png}
+    \textbf{PuLP}\includegraphics[scale=0.40]{img/1stars.png}
+    \textbf{matplotlib}\includegraphics[scale=0.40]{img/1stars.png} 
+    \textbf{Seaborn}\includegraphics[scale=0.40]{img/1stars.png}
+    ~
+
+    
+    \section{Frameworks}
+    %\textbf{MySQL}\includegraphics[scale=0.40]{img/1stars.png} 
+    %\textbf{\LaTeX{}}\includegraphics[scale=0.40]{img/1stars.png}
+     %\textbf{Slack}\includegraphics[scale=0.40]{img/1stars.png} 
+    %\textbf{BS4, Tor}\includegraphics[scale=0.40]{img/1stars.png}
+     \begin{itemize}
+     \item \textbf{MySQL, \LaTeX{}}
+     \item \textbf{GIT, vim}
+     \item \textbf{Slack, Asana}
+     \end{itemize}
+    ~
+    
+   % ~
+  %\section{Personal Skills}
+   % \includegraphics[scale=0.62]{img/personal.png}
+    %~
+\end{aside}
+
+
+
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {02/13 - Now}
+    {Software Engineer}
+    {Fluidmesh Networks SRL, Milano, Italy}
+    {Design and development of algorithms, solutions and high speed mobility           schemes for Wireless Mesh Networks. Design and development of embedded software     for Wireless Network devices.\\}
+  \entry
+    {01/12 - 01/13}
+    {Freelance Developer \& Consultant}
+    {Icosaedro Solutions}
+    {Design and development of Android Applications, Web Solutions, Unix and GNU/Linux software.\\}
+    \entry
+    {12/09 - 06/09}
+    {Project Manager and Webmaster}
+    {D.I.D.A.G., Grassano (MT), Italy}
+    {Design, development and management of an e-commerce website on Joomla!1.5 CMS platform.\\}
+    \entry
+    {06/09 - 09/09}
+    {Part-time collaboration}
+    {Area Sistemi Informatici, Università di Pisa, Italy}
+    {Computer technical support. Problem solving related to hardware, software and Operating Systems. Management of the internal network.\\}
+    
+\end{entrylist}
+
+\section{Publications}
+C. Benedetto, E. Mingozzi, C. Vallati\\
+\textbf{A Handoff Algorithm based on Link Quality Prediction for Mass Transit Wireless Mesh Networks}\\
+\emph{Proceedings of the 18th IEEE Symposium on Computers and Communications (ISCC 2013), Split, Croatia, July 7-10, 2013}
+\\
+\\
+C. Benedetto, E. Mingozzi, C. Vallati\\
+\textbf{A Handoff Algorithm based on Link Quality Prediction for Mass Transit Wireless Mesh Networks}\\
+\emph{Proceedings of the 18th IEEE Symposium on Computers and Communications (ISCC 2013), Split, Croatia, July 7-10, 2013}
+\\
+
+
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2009 - 2012}
+    {Master's Degree in Computer Engineering}
+    {Università di Pisa, Italy}
+    {Curriculum Networking and Multimedia.\\
+    Main subjects: Network Applications, Systems Architecture and Security, Mobile Applications, Multemedia Information            Processing.\\
+    }
+  \entry
+    {2005 - 2009}
+    {Bachelor's Degree in Computer Engineering}
+    {Università di Pisa, Italy}
+    {Main subjects: Matematics and Physics, Programming, Operational Research, Telecommunication Systems, Digital and Analogical Electronics.\\
+    }
+  \entry
+    {2000 - 2005}
+    {Scientific Disploma.}
+    {Liceo Scientifico, Matera, Italy}
+    {Scientific Secondary School.\\
+    Main subjects: Matematics, Physics, Computer Science.}
+\end{entrylist}
+
+
+
+\section{Certifications}
+\begin{entrylist}
+  \entry
+    {02/2013}
+    {Intro to Computer Science}
+    {Udacity. E-learning}
+    {\emph{Building a Python Search Engine}}
+\end{entrylist}
+
+
+
+\begin{aside}
+~
+~
+
+  ~
+  \section{Personal Skills}
+   \includegraphics[scale=0.62]{img/personal.png}
+  ~
+
+~
+  \section{Places Lived}
+    \includegraphics[scale=0.25]{img/italia.png}
+    ~
+  \section{Languages}
+  \textbf{English}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Telgu}\includegraphics[scale=0.40]{img/4stars.png}
+    
+    \textbf{Tamil}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Kannada}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Hindi}\includegraphics[scale=0.40]{img/3stars.png}
+    \textbf{German}\includegraphics[scale=0.40]{img/2stars.png}
+    ~
+     \section{MISC /Hobbies}
+    \begin{itemize}
+    \item \textbf{Harmonica}
+    \item \textbf{Chess}
+    \item \textbf{Sudoku, Kakuro}
+     \item \textbf{Ambidextrous}
+      \item \textbf{Avid Reader}
+    \end{itemize}
+    
+\end{aside}
+
+\section{Highlights}
+\begin{itemize}
+\item Presented a novel approach in Data Scientific Applications in Astronomy: Advent and Opportunities at the
+\textbf{Indian Institute of Astrophysics (IIA)} on Founder’s day 2017.
+
+
+%C. Benedetto, E. Mingozzi, C. Vallati\\
+%\textbf{A Handoff Algorithm based on Link Quality Prediction for Mass Transit Wireless Mesh Networks}\\
+%\emph{Proceedings of the 18th IEEE Symposium on Computers and Communications (ISCC 2013), Split, Croatia, July 7-10, 2013}
+\item Qualified to \textbf{Top 10} teams in inGenius 2k17, a \textbf{Intercollege Hackathon} in PESIT-BSC amongst 600+ participants.
+Implemented a convolutional neural network for Style Transfer
+%\\
+%\\
+\item \textbf{TEDx (Speaker Curator)} - As the Speaker Curator, I am responsible for finding prospective Speakers, meeting
+them to Curate their Speech by helping them formulate their ideas.%in the most persuasive manner.
+
+%\\
+\\
+\item \textbf{IEEE Pesit (Joint Secretary) } - I have successfully organized over four workshops in python and Machine Learning, presented a discussion on ensemble learning at Py101 2016
+\end{itemize}
+\\
+
+
+
+
+\section{Projects}
+\begin{entrylist}
+  \entry
+    {02/13 - Now}
+    {Software Engineer}
+    {Fluidmesh Networks SRL, Milano, Italy}
+    {Design and development of algorithms, solutions and high speed mobility           schemes for Wireless Mesh Networks. Design and development of embedded software     for Wireless Network devices.\\}
+  \entry
+    {01/12 - 01/13}
+    {Freelance Developer \& Consultant}
+    {Icosaedro Solutions}
+    {Design and development of Android Applications, Web Solutions, Unix and GNU/Linux software.\\}
+    \entry
+    {12/09 - 06/09}
+    {Project Manager and Webmaster}
+    {D.I.D.A.G., Grassano (MT), Italy}
+    {Design, development and management of an e-commerce website on Joomla!1.5 CMS platform.\\}
+    \entry
+    {06/09 - 09/09}
+    {Part-time collaboration}
+    {Area Sistemi Informatici, Università di Pisa, Italy}
+    {Computer technical support. Problem solving related to hardware, software and Operating Systems. Management of the internal network.\\}
+    \entry
+    {06/09 - 09/09}
+    {Part-time collaboration}
+    {Area Sistemi Informatici, Università di Pisa, Italy}
+    {Computer technical support. Problem solving related to hardware, software and Operating Systems. Management of the internal network.\\}
+    \entry
+    {06/09 - 09/09}
+    {Part-time collaboration}
+    {Area Sistemi Informatici, Università di Pisa, Italy}
+    {Computer technical support. Problem solving related to hardware, software and Operating Systems. Management of the internal network.\\}
+    
+   
+    
+\end{entrylist}
+\begin{flushleft}
+
+\end{flushleft}
+\emph{Carmine Benedetto}
+\begin{flushright}
+\emph{Carmine Benedetto}
+\end{flushright}
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}
+
